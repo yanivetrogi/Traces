@@ -36,9 +36,6 @@ END;
 WITH CTE AS
 (
 	SELECT * FROM dbo.#data
-	--SELECT CONVERT(XML, TextData) as TextData, EndTime AS EndTime, Duration/1000 AS DurationMS, Mode, ROW_NUMBER() OVER(ORDER BY EventSequence DESC) AS rn
-	--FROM fn_trace_gettable('F:\DBArt\Dropbox\SQL Server Scripts\SystemOverview\BlockedProcessAnalysis\BlockedProcessesTrace.trc', 1) tr
-	--WHERE TextData IS NOT NULL 
 ),
 AllDataCTE AS
 (
