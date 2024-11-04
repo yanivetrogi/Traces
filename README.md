@@ -1,4 +1,4 @@
-The TraceExecutions process captures all (entire) activity on an instance of sql server as defined by the @Minutes paramter.
+The **TraceExecutions** process captures all (entire) activity on an instance of sql server as defined by the _@Minutes_ paramter.
 At the final result the process aggrgates the data and displays a single line per execution.
 You can then sort the data by number of exeutions, reads, duration etc. to match your need.
 
